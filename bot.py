@@ -95,6 +95,7 @@ async def countryinfo(bot, update):
         InlineKeyboardButton('Google', url=f'https://www.google.com/search?q={country_name}'),
         InlineKeyboardButton('Yahoo', url=f'https://www.yahoo.com/search?q={country_name}')
         ]]
+     ) 
    try:
         await update.reply_text(
             text=info,
