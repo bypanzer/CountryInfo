@@ -20,6 +20,40 @@ License -> https://github.com/DeccanBotz/CountryInfo/blob/main/LICENSE
   </a>
 </p>
 
+### Features 
+Below Informations are Given By Country Information Bot
+
+* Name : `Name of the Country`
+* Native Name : `Name of Country in native Language`
+* Capital : `Capital of the Country`
+* Population : `Population of Country`
+* Area[in km²] : `Total Area of Country`
+* Region : `Continent of Country`
+* Sub Region : `More Specific Region of Country`
+* Borders : `Borders of the Country`
+* Top Level Domains : `official top Level Domains` 
+* Calling Codes : `International Calling Codes of Country`
+* Currencies : `Official Currencies of Country`
+* Residence : `Name of Resident in country`
+* Timezone : `Time Zones of the Country`
+
+### Example
+```
+Name : canada
+Native Name : Canada
+Capital : Ottawa
+Population : 35540419
+Area[in km²] : 9984670
+Region : Americas
+Sub Region : Northern America
+Borders : ['USA']
+Top Level Domains : ['.ca']
+Calling Codes : ['1']
+Currencies : ['CAD']
+Residence : Canadian
+Timezone : ['UTC−08:00', 'UTC−07:00', 'UTC−06:00', 'UTC−05:00', 'UTC−04:00', 'UTC−03:30']
+```
+
 ### Configs
 
 * `API_HASH` Your API Hash from my.telegram.org
