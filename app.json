@@ -13,6 +13,9 @@
         },
         "API_HASH": {
             "description": "Your API_HASH from @ScrapperDCBot"
+        },
+        "OWNER": {
+            "description": "Your Username without '@'"
         }
     },
     "buildpacks": [
