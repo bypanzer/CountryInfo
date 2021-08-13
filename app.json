@@ -1,0 +1,23 @@
+{
+    "name": "Country Information Bot",
+    "description": "A simple Country Information Finder Telegram Bot",
+    "repository": "https://github.com/DeccanBotz/CountryInfo",
+    "logo": "https://telegra.ph/file/b449c690dac61a8193437.jpg",
+    "keywords": ["country information", "Deccan_Botz", "telegram bot"],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID from @ScrapperDCBot"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from @ScrapperDCBot"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
