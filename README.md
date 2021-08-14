@@ -65,7 +65,7 @@ Timezone : ['UTC−08:00', 'UTC−07:00', 'UTC−06:00', 'UTC−05:00', 'UTC−0
 * `BOT_TOKEN` Your bot token from @BotFather
 
 ### Deploy to Heroku
-* [Tutorial](https://youtube.com)
+* [Tutorial](https://youtu.be/2EfBKEiU7hQ)
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DeccanBotz/CountryInfo)
 
