@@ -82,9 +82,9 @@ async def countryinfo(bot, update):
 **Sub Region** : `{country.subregion()}`
 **Sərhədlər** : `{country.borders()}`
 **Ölkə domeni** : `{country.tld()}`
-**Beynəlxalq Kod** : `{country.calling_codes()}`
+**Beynəlxalq Zəng Kodu** : `{country.calling_codes()}`
 **Məzənnə** : `{country.currencies()}`
-**Residence** : `{country.demonym()}`
+**Milliyyət** : `{country.demonym()}`
 **Saat qurşağı** : `{country.timezones()}` 
 """
    country_name = country.name()
