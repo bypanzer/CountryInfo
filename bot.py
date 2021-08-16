@@ -73,19 +73,19 @@ async def help(bot, update):
 async def countryinfo(bot, update):
    country = CountryInfo(update.text)
    info = f"""
-**Name** : `{country.name()}`
-**Native Name** : `{country.native_name()}`
-**Capital** : `{country.capital()}`
-**Population** : `{country.population()}`
-**Area[in km²]** : `{country.area()}`
+**Ölkə adı(Qlobal)** : `{country.name()}`
+**Ölkə adı(Yerli)** : `{country.native_name()}`
+**Paytaxt** : `{country.capital()}`
+**Əhali** : `{country.population()}`
+**Ərazi[km² ilə]** : `{country.area()}`
 **Region** : `{country.region()}`
 **Sub Region** : `{country.subregion()}`
-**Borders** : `{country.borders()}`
-**Top Level Domains** : `{country.tld()}`
-**Calling Codes** : `{country.calling_codes()}`
-**Currencies** : `{country.currencies()}`
+**Sərhədlər** : `{country.borders()}`
+**Ölkə domeni** : `{country.tld()}`
+**Beynəlxalq Kod** : `{country.calling_codes()}`
+**Məzənnə** : `{country.currencies()}`
 **Residence** : `{country.demonym()}`
-**Timezone** : `{country.timezones()}` 
+**Saat qurşağı** : `{country.timezones()}` 
 """
    country_name = country.name()
    country_name = country_name.replace(" ", "+")
