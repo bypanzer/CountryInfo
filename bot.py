@@ -16,32 +16,32 @@ Deccan = Client(
 )
 
 START_TEXT = """
-Hello {}, 
+Salam {}, 
 
-I am a **Country Information Finder** bot.
+Mən **Coğrafiyaçı'm** botam.
 
-I can Get Information about any country.
+Mən istənilən ölkə haqqında məlumat əldə edə bilirəm.
 """
 HELP_TEXT = """
-Follow these steps..
+Bu addımları izlə..
 
-☛ Just send me a country name..
+☛ İndi mənə istədiyin ölkə adını göndər..
 
-☛ Then I will collect information & send to you..
+☛ Mən məlumat toplayıb sənə göndərəcəm🙆..
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://youtu.be/2EfBKEiU7hQ')
+        InlineKeyboardButton('Creator 🙇', url='https://t.me/hasanli517')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://youtu.be/2EfBKEiU7hQ')
+        InlineKeyboardButton('Creator 🙇', url='https://t.me/hasanıi517")
         ]]
     )
 
@@ -49,7 +49,7 @@ ERROR_BUTTON = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Tutorial 📺', url='https://youtu.be/2EfBKEiU7hQ')
+        InlineKeyboardButton('Creator 🙇', url='https://t.me/hasanli517")
         ]]
     )
 
