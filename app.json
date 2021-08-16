@@ -1,9 +1,9 @@
 {
     "name": "Country Information Bot",
     "description": "A simple Country Information Finder Telegram Bot",
-    "repository": "https://github.com/DeccanBotz/CountryInfo",
+    "repository": "https://github.com/bypanzer/CountryInfo",
     "logo": "https://telegra.ph/file/b449c690dac61a8193437.jpg",
-    "keywords": ["country information", "Deccan_Botz", "telegram bot"],
+    "keywords": ["country information", "Panzerim", "telegram bot"],
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather"
