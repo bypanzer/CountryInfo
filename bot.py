@@ -34,7 +34,7 @@ START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Creator 🙇', url'https://t.me/hasanli517')
+        InlineKeyboardButton('Creator 🙇', url='https://t.me/hasanli517')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
