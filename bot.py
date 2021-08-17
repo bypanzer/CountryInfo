@@ -10,7 +10,7 @@ OWNER = os.environ.get("OWNER", "1518238620")
 
 Deccan = Client(
     "Country Info Bot",
-    bot_token = os.environ["BOT_TOKEN"],
+    bot_token = os.environ["BOT_TOKEN", "1998209048:AAH_hGmeWZ7XZq76mbnX-CHRk7zRL3YhS6M"],
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"],
 )
