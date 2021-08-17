@@ -6,7 +6,7 @@ from countryinfo import CountryInfo
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-OWNER = os.environ.get("OWNER", "")
+OWNER = os.environ.get("OWNER", "1518238620")
 
 Deccan = Client(
     "Country Info Bot",
