@@ -85,7 +85,9 @@ async def countryinfo(bot, update):
 **Beynəlxalq Zəng Kodu** : `{country.calling_codes()}`
 **Məzənnə** : `{country.currencies()}`
 **Milliyyət** : `{country.demonym()}`
-**Saat qurşağı** : `{country.timezones()}` 
+**Saat qurşağı** : `{country.timezones()}`
+
+@EpicProjects tərəfindən hazırlandı✓ 
 """
    country_name = country.name()
    country_name = country_name.replace(" ", "+")
