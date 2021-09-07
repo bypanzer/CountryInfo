@@ -28,6 +28,8 @@ Bu addımları izlə..
 ☛ İndi mənə istədiyin ölkə adını göndər..
 
 ☛ Mən məlumat toplayıb sənə göndərəcəm🙆..
+
+☛ **Qeyd** : Ölkə adını qlobal(İngilis) dildə yaz.Əgər bilmirsənsə @DilmancAzBot vasitəsilə öyrənə bilərsən ✓
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
