@@ -34,14 +34,14 @@ START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Creator 🙇', url='https://t.me/hasanli517')
+        InlineKeyboardButton('Support ⚙️', url='https://t.me/EpicProjects')
         ]]
     )
 HELP_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Creator 🙇', url='https://t.me/hasanıi517')
+        InlineKeyboardButton('Support ⚙️', url='https://t.me/EpicProjects')
         ]]
     )
 
@@ -49,7 +49,7 @@ ERROR_BUTTON = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('Owner 👨‍💻', url=f"https://telegram.me/{OWNER}")
         ],[
-        InlineKeyboardButton('Creator 🙇', url='https://t.me/hasanli517')
+        InlineKeyboardButton('Creator 🙇', url='https://t.me/EpicProjects')
         ]]
     )
 
